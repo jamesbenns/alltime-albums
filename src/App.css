@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  color: #fff;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container{
+  max-width: 600px;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.swiper-container {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.swiper-slide {
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.album-art{
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+    padding: 40px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+.album-art img{
+    margin-top: 15px;
+}
+.info-container{
+    padding: 20px;
+}
+a.button{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    transition: all 0.2s;
+    display: block;
+    text-decoration: none;
+}
+a.button:hover{
+    transform: scale(1.05);
+}
+a.button.red{
+    color: red;
+    border: none;
+}
+a.button.active{
+    background: #fff;
+    color: #000;
+}
