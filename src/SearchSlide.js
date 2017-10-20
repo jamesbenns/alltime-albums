@@ -65,7 +65,7 @@ class SearchSlide extends Component {
                 </div>
                 {resultsList}
                 <div className="info-container" style={{display: this.state.results.length ? 'none' : 'block'}}>
-                    <p style={{display: this.getArtists().length < 2 ? 'block' : 'none'}}>Find and save your favourite albums<br/>from iTunes!</p>
+                    <p style={{display: this.getArtists().length < 2 ? 'block' : 'none'}}>Find and save your favourite<br/>albums from iTunes!</p>
                     <div style={{display: this.getArtists().length > 1 ? 'block' : 'none'}}>
                         <p>Showing albums by:</p>
                         <a className={this.props.artist === "" ? 'button active' : 'button'} onClick={this.props.filterByArtist('')}>All artists</a>

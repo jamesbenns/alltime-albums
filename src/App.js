@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Swiper from 'swiper';
+import Swiper from './swiper.js';
 import './swiper.min.css';
 import './App.css';
 import SearchSlide from './SearchSlide.js';
